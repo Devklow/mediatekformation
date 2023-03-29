@@ -16,10 +16,9 @@ use Doctrine\Persistence\ManagerRegistry;
  */
 class PlaylistRepository extends ServiceEntityRepository
 {
-    const SELECT_ID = 'p.id id';
-    const SELECT_NAME = 'p.name name';
-    const SELECT_C_NAME = 'c.name categoriename';
-
+    const P_ID_ID = 'p.id id';
+    const P_NAME_NAME = 'p.name name';
+    const C_NAME_CATEGORIENAME = 'c.name categoriename';
 
     public function __construct(ManagerRegistry $registry)
     {
@@ -53,9 +52,9 @@ class PlaylistRepository extends ServiceEntityRepository
     public function findAllOrderBy($champ, $ordre): array
     {
         return $this->createQueryBuilder('p')
-                ->select($this::SELECT_ID)
-                ->addSelect($this::SELECT_NAME)
-                ->addSelect($this::SELECT_C_NAME)
+                ->select(self::P_ID_ID)
+                ->addSelect(self::P_NAME_NAME)
+                ->addSelect(self::C_NAME_CATEGORIENAME)
                 ->leftjoin('p.formations', 'f')
                 ->leftjoin('f.categories', 'c')
                 ->groupBy('p.id')
@@ -68,22 +67,16 @@ class PlaylistRepository extends ServiceEntityRepository
 
     /**
      * Enregistrements dont un champ contient une valeur
-     * ou tous les enregistrements si la valeur est vide
      * @param type $champ
      * @param type $valeur
-     * @param type $table si $champ dans une autre table
      * @return Playlist[]
      */
-    public function findByContainValue($champ, $valeur, $table=""): array
+    public function findByContainValue($champ, $valeur): array
     {
-        if ($valeur=="") {
-            return $this->findAllOrderBy('name', 'ASC');
-        }
-        if ($table=="") {
             return $this->createQueryBuilder('p')
-                    ->select($this::SELECT_ID)
-                    ->addSelect($this::SELECT_NAME)
-                    ->addSelect($this::SELECT_C_NAME)
+                    ->select(self::P_ID_ID)
+                    ->addSelect(self::P_NAME_NAME)
+                    ->addSelect(self::C_NAME_CATEGORIENAME)
                     ->leftjoin('p.formations', 'f')
                     ->leftjoin('f.categories', 'c')
                     ->where('p.'.$champ.' LIKE :valeur')
@@ -94,23 +87,6 @@ class PlaylistRepository extends ServiceEntityRepository
                     ->addOrderBy('c.name')
                     ->getQuery()
                     ->getResult();
-        } else {
-            return $this->createQueryBuilder('p')
-                    ->select($this::SELECT_ID)
-                    ->addSelect($this::SELECT_NAME)
-                    ->addSelect($this::SELECT_C_NAME)
-                    ->leftjoin('p.formations', 'f')
-                    ->leftjoin('f.categories', 'c')
-                    ->where('c.'.$champ.' LIKE :valeur')
-                    ->setParameter('valeur', '%'.$valeur.'%')
-                    ->groupBy('p.id')
-                    ->addGroupBy('c.name')
-                    ->orderBy('p.name', 'ASC')
-                    ->addOrderBy('c.name')
-                    ->getQuery()
-                    ->getResult();
-            
-        }
     }
 
 

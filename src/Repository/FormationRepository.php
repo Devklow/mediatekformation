@@ -46,53 +46,65 @@ class FormationRepository extends ServiceEntityRepository
      * @param type $table si $champ dans une autre table
      * @return Formation[]
      */
-    public function findAllOrderBy($champ, $ordre, $table=""): array
+    public function findAllOrderBy($champ, $ordre): array
     {
-        if ($table=="") {
             return $this->createQueryBuilder('f')
                     ->orderBy('f.'.$champ, $ordre)
                     ->getQuery()
                     ->getResult();
-        } else {
-            return $this->createQueryBuilder('f')
-                    ->join('f.'.$table, 't')
-                    ->orderBy('t.'.$champ, $ordre)
-                    ->getQuery()
-                    ->getResult();
-        }
+    }
+
+    /**
+     * Retourne toutes les formations triées sur un champ
+     * @param type $champ
+     * @param type $ordre
+     * @param type $table si $champ dans une autre table
+     * @return Formation[]
+     */
+    public function findAllOrderByInTable($champ, $ordre, $table): array
+    {
+        return $this->createQueryBuilder('f')
+            ->join('f.' . $table, 't')
+            ->orderBy('t.' . $champ, $ordre)
+            ->getQuery()
+            ->getResult();
     }
 
     /**
      * Enregistrements dont un champ contient une valeur
-     * ou tous les enregistrements si la valeur est vide
      * @param type $champ
      * @param type $valeur
      * @param type $table si $champ dans une autre table
      * @return Formation[]
      */
-    public function findByContainValue($champ, $valeur, $table=""): array
+    public function findByContainValue($champ, $valeur): array
     {
-        if ($valeur=="") {
-            return $this->findAll();
-        }
-        if ($table=="") {
-            return $this->createQueryBuilder('f')
-                    ->where('f.'.$champ.' LIKE :valeur')
-                    ->orderBy('f.publishedAt', 'DESC')
-                    ->setParameter('valeur', '%'.$valeur.'%')
-                    ->getQuery()
-                    ->getResult();
-        } else {
-            return $this->createQueryBuilder('f')
-                    ->join('f.'.$table, 't')
-                    ->where('t.'.$champ.' LIKE :valeur')
-                    ->orderBy('f.publishedAt', 'DESC')
-                    ->setParameter('valeur', '%'.$valeur.'%')
-                    ->getQuery()
-                    ->getResult();
-        }
+        return $this->createQueryBuilder('f')
+            ->where('f.' . $champ . ' LIKE :valeur')
+            ->orderBy('f.publishedAt', 'DESC')
+            ->setParameter('valeur', '%' . $valeur . '%')
+            ->getQuery()
+            ->getResult();
     }
-    
+
+    /**
+     * Enregistrements dont un champ contient une valeur dans une table donnée
+     * @param type $champ
+     * @param type $valeur
+     * @param type $table si $champ dans une autre table
+     * @return Formation[]
+     */
+    public function findByContainValueInTable($champ, $valeur, $table): array
+    {
+        return $this->createQueryBuilder('f')
+            ->join('f.' . $table, 't')
+            ->where('t.' . $champ . ' LIKE :valeur')
+            ->orderBy('f.publishedAt', 'DESC')
+            ->setParameter('valeur', '%' . $valeur . '%')
+            ->getQuery()
+            ->getResult();
+    }
+
     /**
      * Retourne les n formations les plus récentes
      * @param type $nb
