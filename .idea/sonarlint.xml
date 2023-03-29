@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SonarLintProjectSettings">
+    <option name="fileExclusions">
+      <list>
+        <option value="DIRECTORY:var" />
+        <option value="DIRECTORY:vendor" />
+        <option value="DIRECTORY:vendor/bin" />
+        <option value="DIRECTORY:vendor/composer" />
+        <option value="DIRECTORY:vendor/doctrine" />
+        <option value="DIRECTORY:vendor/egulias" />
+        <option value="DIRECTORY:vendor/friendsofphp" />
+        <option value="DIRECTORY:vendor/laminas" />
+        <option value="DIRECTORY:vendor/monolog" />
+        <option value="DIRECTORY:vendor/myclabs" />
+        <option value="DIRECTORY:vendor/nikic" />
+        <option value="DIRECTORY:vendor/phar-io" />
+        <option value="DIRECTORY:vendor/phpdocumentor" />
+        <option value="DIRECTORY:vendor/phpstan" />
+        <option value="DIRECTORY:vendor/phpunit" />
+        <option value="DIRECTORY:vendor/psr" />
+        <option value="DIRECTORY:vendor/sebastian" />
+        <option value="DIRECTORY:vendor/sensio" />
+        <option value="DIRECTORY:vendor/symfony" />
+        <option value="DIRECTORY:vendor/theseer" />
+        <option value="DIRECTORY:vendor/twig" />
+        <option value="DIRECTORY:vendor/webmozart" />
+        <option value="FILE:vendor/autoload.php" />
+        <option value="FILE:vendor/autoload_runtime.php" />
+        <option value="DIRECTORY:var/cache" />
+        <option value="DIRECTORY:var/log" />
+      </list>
+    </option>
+  </component>
+</project>
