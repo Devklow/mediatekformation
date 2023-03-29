@@ -1,0 +1,99 @@
+{% extends 'baseback.html.twig' %}
+
+{% block title %}Playlist index{% endblock %}
+
+{% block body %}
+    <h1>Administration des Playlists</h1>
+    <a class="btn btn-primary" href="{{ path('admin.playlists.new') }}">Ajouter une playlist</a>
+
+    <table class="table">
+        <thead>
+        <tr>
+            <th class="text-left align-top" scope="col">
+                playlist<br />
+                <a href="{{ path('admin.playlists.sort', {champ:'name', ordre:'ASC'}) }}" class="btn btn-info btn-sm active" role="button" aria-pressed="true"><</a>
+                <a href="{{ path('admin.playlists.sort', {champ:'name', ordre:'DESC'}) }}" class="btn btn-info btn-sm active" role="button" aria-pressed="true">></a>
+                <form class="form-inline mt-1" method="POST" action="{{ path('admin.playlists.findallcontain', {champ:'name'}) }}">
+                    <div class="form-group mr-1 mb-2">
+                        <input type="text" class="sm" name="recherche"
+                               value="{% if valeur|default and not table|default %}{{ valeur }}{% endif %}">
+                        <input type="hidden" name="_token" value="{{ csrf_token('filtre_name') }}">
+                        <button type="submit" class="btn btn-info mb-2 btn-sm">filtrer</button>
+                    </div>
+                </form>
+            </th>
+            <th class="text-left align-top" scope="col">
+                catégories
+                <form class="form-inline mt-1" method="POST" action="{{ path('admin.playlists.findallcontain', {champ:'id', table:'categories'}) }}">
+                    <select class="form-select form-select-sm" name="recherche" id="recherche" onchange="this.form.submit()">
+                        <option value=""></option>
+                        {% for categorie in categories %}
+                            <option
+                                    {% if valeur|default and valeur==categorie.id %}
+                                        selected
+                                    {% endif %}
+                                    value="{{ categorie.id }}">{{ categorie.name }}
+                            </option>
+                        {% endfor %}
+                    </select>
+                </form>
+            </th>
+            <th class="text-center align-top" scope="col">
+                Nombre de formations
+                <div class="col">
+                    <a href="{{ path('admin.playlists.sort', {champ:'nbformations', ordre:'ASC'}) }}"
+                       class="btn btn-info btn-sm active" role="button" aria-pressed="true"><</a>
+                    <a href="{{ path('admin.playlists.sort', {champ:'nbformations', ordre:'DESC'}) }}"
+                       class="btn btn-info btn-sm active" role="button" aria-pressed="true">></a>
+                </div>
+            </th>
+            <th class="text-center align-top" scope="col">
+                Actions
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for playlist in playlists %}
+            <tr class="align-middle">
+                <td>
+                    <h5 class="text-info">
+                        {{ playlist.name }}
+                    </h5>
+                </td>
+                <td class="text-left">
+                    {% for categorie in playlist.categoriesplaylist %}
+                        {{ categorie }}
+                    {% endfor %}
+                </td>
+                <td class="text-center">
+                    {{ playlist.formations|length }}
+                </td>
+                <td class="text-left">
+                    <a href="{{ path('admin.playlists.edit', {id:playlist.id}) }}" class="btn btn-warning">Modifier</a>
+                    {% if playlist.formations is not empty %}
+                        <div class="">
+                        <button class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true"
+                                title="Impossible de supprimer une playlist liée à une formation">
+                            Supprimer</button>
+                        </div>
+                    {% else %}
+                        {{ include('admin_playlist/_delete_form.html.twig') }}
+                    {% endif %}
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="4">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
+
+{% block javascripts %}
+    <script>
+    let tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    let tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)
+    })</script>
+{% endblock %}

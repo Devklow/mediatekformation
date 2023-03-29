@@ -22,16 +22,22 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ path('admin.formation.index') }}">Formations</a>
                     </li>
-                    <li class="nav-item d-none">
-                        <a class="nav-link" href="#">Playlists</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ path('admin.playlists.index') }}">Playlists</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ path('accueil') }}">Retour à l'application</a>
                     </li>
                 </ul>
             </div>
-        </nav>        
+        </nav>
+        {{ include('flashbags.html.twig') }}
     </div>
+    {% for message in app.flashes('success') %}
+        <div class="alert alert-success">
+            {{ message }}
+        </div>
+    {% endfor %}
 {% endblock %}
 {% block body %}{% endblock %}
 {% block footer %}

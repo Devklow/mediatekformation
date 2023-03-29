@@ -1,0 +1,53 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Modifier une Playlist{% endblock %}
+
+{% block body %}
+<div class="card d-flex mt-5 w-75 offset-2">
+    <div class="card-header"><h1>Modifier une Playlist</h1></div>
+    <div class="card-body">
+        {{ form_start(form) }}
+        {{ form_widget(form) }}
+        <div class="d-flex w-100 justify-content-center mt-3 mb-3">
+            <button type="submit" class="btn btn-primary" style="margin-right: 1rem;">Modifier</button>
+            <a class="btn btn-secondary" style="margin-right: 1rem;"
+               href="{{ path('admin.playlists.index') }}">Retour</a>
+        </div>
+    </div>
+    {% if playlist.formations %}
+    <div class="card-footer">
+        <div class="d-flex justify-content-between">
+            <h5>Formation(s) présente(s)</h5>
+            <a class="btn btn-sm btn-primary" data-index="1" data-bs-toggle="collapse" href="#collapseExample" role="button"
+               onclick="this.innerHTML='+-+'.charAt(this.dataset.index);this.dataset.index=(this.dataset.index%2+1);"
+               aria-expanded="false" aria-controls="collapseExample">
+                +
+            </a>
+        </div>
+
+        <div class="collapse" id="collapseExample">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Categorie(s)</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for formation in playlist.formations %}
+                    <tr>
+                        <td>{{ formation.title }}</td>
+                        <td>
+                            {% for categorie in formation.categories %}
+                                {{ categorie }}
+                            {% endfor %}
+                        </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

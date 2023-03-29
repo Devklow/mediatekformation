@@ -18,6 +18,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class PlaylistsController extends AbstractController
 {
     const PAGES_PLAYLISTS_HTML_TWIG = "pages/playlists.html.twig";
+    const PAGES_PLAYLISTS_ADMIN = "admin_playlist/index.html.twig";
 
     /**
      *
@@ -64,11 +65,12 @@ class PlaylistsController extends AbstractController
 
     /**
      * @Route("/playlists/tri/{champ}/{ordre}", name="playlists.sort")
+     * @Route("/admin/playlists/tri/{champ}/{ordre}", name="admin.playlists.sort")
      * @param type $champ
      * @param type $ordre
      * @return Response
      */
-    public function sort($champ, $ordre): Response
+    public function sort(Request $request, $champ, $ordre): Response
     {
         switch ($champ) {
             case "name":
@@ -82,7 +84,14 @@ class PlaylistsController extends AbstractController
                 break;
         }
         $categories = $this->categorieRepository->findAll();
-        return $this->render("pages/playlists.html.twig", [
+
+        if ($request->get('_route')==="admin.playlists.sort") {
+            return $this->render(self::PAGES_PLAYLISTS_ADMIN, [
+                'playlists' => $playlists,
+                'categories' => $categories
+            ]);
+        }
+        return $this->render(self::PAGES_PLAYLISTS_HTML_TWIG, [
             'playlists' => $playlists,
             'categories' => $categories
         ]);
@@ -90,12 +99,13 @@ class PlaylistsController extends AbstractController
 
     /**
      * @Route("/playlists/recherche/{champ}/{table}", name="playlists.findallcontain")
+     * @Route("/admin/playlists/recherche/{champ}/{table}", name="admin.playlists.findallcontain")
      * @param type $champ
      * @param Request $request
      * @param type $table
      * @return Response
      */
-    public function findAllContain($champ, Request $request, $table=""): Response
+    public function findAllContain(Request $request, $champ, $table=""): Response
     {
         $valeur = $request->get("recherche");
         if ($valeur=="") {
@@ -106,6 +116,14 @@ class PlaylistsController extends AbstractController
             $playlists = $this->playlistRepository->findByCategorie($champ, $valeur);
         }
         $categories = $this->categorieRepository->findAll();
+        if ($request->get('_route')==="admin.playlists.findallcontain") {
+            return $this->render(self::PAGES_PLAYLISTS_ADMIN, [
+                'playlists' => $playlists,
+                'categories' => $categories,
+                'valeur' => $valeur,
+                'table' => $table
+            ]);
+        }
         return $this->render(self::PAGES_PLAYLISTS_HTML_TWIG, [
             'playlists' => $playlists,
             'categories' => $categories,
