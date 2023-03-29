@@ -16,9 +16,6 @@ use Doctrine\Persistence\ManagerRegistry;
  */
 class PlaylistRepository extends ServiceEntityRepository
 {
-    const P_ID_ID = 'p.id id';
-    const P_NAME_NAME = 'p.name name';
-    const C_NAME_CATEGORIENAME = 'c.name categoriename';
 
     public function __construct(ManagerRegistry $registry)
     {
@@ -42,53 +39,74 @@ class PlaylistRepository extends ServiceEntityRepository
             $this->getEntityManager()->flush();
         }
     }
-    
+
     /**
-     * Retourne toutes les playlists triées sur un champ
+     * Retourne toutes les playlists triées sur le nom de la playlist
      * @param type $champ
      * @param type $ordre
      * @return Playlist[]
      */
-    public function findAllOrderBy($champ, $ordre): array
-    {
+    public function findAllOrderByName($ordre): array{
         return $this->createQueryBuilder('p')
-                ->select(self::P_ID_ID)
-                ->addSelect(self::P_NAME_NAME)
-                ->addSelect(self::C_NAME_CATEGORIENAME)
-                ->leftjoin('p.formations', 'f')
-                ->leftjoin('f.categories', 'c')
-                ->groupBy('p.id')
-                ->addGroupBy('c.name')
-                ->orderBy('p.'.$champ, $ordre)
-                ->addOrderBy('c.name')
-                ->getQuery()
-                ->getResult();
+            ->leftjoin('p.formations', 'f')
+            ->groupBy('p.id')
+            ->orderBy('p.name', $ordre)
+            ->getQuery()
+            ->getResult();
+    }
+    /**
+     * Retourne toutes les playlists triées sur le nombre de formations
+     * @param type $ordre
+     * @return Playlist[]
+     */
+    public function findAllOrderByNbFormations($ordre): array{
+        return $this->createQueryBuilder('p')
+            ->leftjoin('p.formations', 'f')
+            ->groupBy('p.id')
+            ->orderBy('count(f.title)', $ordre)
+            ->getQuery()
+            ->getResult();
     }
 
     /**
      * Enregistrements dont un champ contient une valeur
+     * ou tous les enregistrements si la valeur est vide
      * @param type $champ
      * @param type $valeur
+     * @param type $table si $champ dans une autre table
      * @return Playlist[]
      */
     public function findByContainValue($champ, $valeur): array
     {
-            return $this->createQueryBuilder('p')
-                    ->select(self::P_ID_ID)
-                    ->addSelect(self::P_NAME_NAME)
-                    ->addSelect(self::C_NAME_CATEGORIENAME)
-                    ->leftjoin('p.formations', 'f')
-                    ->leftjoin('f.categories', 'c')
-                    ->where('p.'.$champ.' LIKE :valeur')
-                    ->setParameter('valeur', '%'.$valeur.'%')
-                    ->groupBy('p.id')
-                    ->addGroupBy('c.name')
-                    ->orderBy('p.name', 'ASC')
-                    ->addOrderBy('c.name')
-                    ->getQuery()
-                    ->getResult();
+        return $this->createQueryBuilder('p')
+            ->leftjoin('p.formations', 'f')
+            ->where('p.' . $champ . ' LIKE :valeur')
+            ->setParameter('valeur', '%' . $valeur . '%')
+            ->groupBy('p.id')
+            ->orderBy('p.name', 'ASC')
+            ->getQuery()
+            ->getResult();
     }
 
+    /**
+     * Enregistrements dont un champ contient une valeur dans une table donnée
+     * @param type $champ
+     * @param type $valeur
+     * @param type $table si $champ dans une autre table
+     * @return Playlist[]
+     */
+    public function findByCategorie($champ, $valeur): array
+    {
+        return $this->createQueryBuilder('p')
+            ->leftjoin('p.formations', 'f')
+            ->leftjoin('f.categories', 'c')
+            ->where('c.' . $champ . ' LIKE :valeur')
+            ->setParameter('valeur', '%' . $valeur . '%')
+            ->groupBy('p.id')
+            ->orderBy('p.name', 'ASC')
+            ->getQuery()
+            ->getResult();
+    }
 
     
 }

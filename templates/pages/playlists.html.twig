@@ -33,41 +33,43 @@
                     </form>            
                 </th>
                 <th class="text-center align-top" scope="col">
+                    Nombre de formations
+                    <div class="col">
+                        <a href="{{ path('playlists.sort', {champ:'nbformations', ordre:'ASC'}) }}"
+                           class="btn btn-info btn-sm active" role="button" aria-pressed="true"><</a>
+                        <a href="{{ path('playlists.sort', {champ:'nbformations', ordre:'DESC'}) }}"
+                           class="btn btn-info btn-sm active" role="button" aria-pressed="true">></a>
+                    </div>
+                </th>
+                <th class="text-center align-top" scope="col">
                     &nbsp;
                 </th>
             </tr>
         </thead>
         <tbody>
             <!-- boucle sur les playlists -->
-            {% set ancplaylist = '' %}
-            {% for k in 0..playlists|length-1 %}
-                <!-- affichage une fois chaque playlist -->
-                {% if playlists[k].name != ancplaylist %}
-                    {% set ancplaylist = playlists[k].name %}
+            {% if playlists|length > 0 %}
+                {% for playlist in playlists %}
                     <tr class="align-middle">
                         <td>
                             <h5 class="text-info">
-                                {{ playlists[k].name }}
+                                {{ playlist.name }}
                             </h5>
-                        </td>                 
+                        </td>
                         <td class="text-left">
-                            {{ playlists[k].categoriename }}
-                            <!-- boucle sur les playlists identiques pour afficher les categories -->
-                            {% if k < playlists|length-1 %}
-                                {% for j in k+1..playlists|length-1 %}
-                                    <!-- affichage une fois de chaque catégorie -->
-                                    {% if ancplaylist == playlists[j].name %}
-                                        &nbsp;{{ playlists[j].categoriename }}
-                                    {% endif %}                                    
+                                {% for categorie in playlist.categoriesplaylist %}
+                                    {{ categorie }}
                                 {% endfor %}
-                            {% endif %}
-                        </td>                    
+                        </td>
                         <td class="text-center">
-                            <a href="{{ path('playlists.showone', {id:playlists[k].id}) }}" class="btn btn-secondary">Voir détail</a>
+                            {{ playlist.formations|length }}
+                        </td>
+                        <td class="text-center">
+                            <a href="{{ path('playlists.showone', {id:playlist.id}) }}" class="btn btn-secondary">Voir détail</a>
                         </td>
                     </tr>
-                {% endif %}
-            {% endfor %}
+                {% endfor %}
+            {% endif %}
         </tbody>
     </table>
 {% endblock %}

@@ -4,6 +4,7 @@ namespace App\Controller;
 use App\Repository\CategorieRepository;
 use App\Repository\FormationRepository;
 use App\Repository\PlaylistRepository;
+use Doctrine\Common\Collections\ArrayCollection;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -53,7 +54,7 @@ class PlaylistsController extends AbstractController
      */
     public function index(): Response
     {
-        $playlists = $this->playlistRepository->findAllOrderBy('name', 'ASC');
+        $playlists = $this->playlistRepository->findAllOrderByName('ASC');
         $categories = $this->categorieRepository->findAll();
         return $this->render(self::PAGES_PLAYLISTS_HTML_TWIG, [
             'playlists' => $playlists,
@@ -69,14 +70,24 @@ class PlaylistsController extends AbstractController
      */
     public function sort($champ, $ordre): Response
     {
-        $playlists = $this->playlistRepository->findAllOrderBy($champ, $ordre);
+        switch ($champ) {
+            case "name":
+                $playlists = $this->playlistRepository->findAllOrderByName($ordre);
+                break;
+            case "nbformations":
+                $playlists = $this->playlistRepository->findAllOrderByNbFormations($ordre);
+                break;
+            default:
+                $playlists = $this->playlistRepository->findall();
+                break;
+        }
         $categories = $this->categorieRepository->findAll();
-        return $this->render(self::PAGES_PLAYLISTS_HTML_TWIG, [
+        return $this->render("pages/playlists.html.twig", [
             'playlists' => $playlists,
             'categories' => $categories
         ]);
     }
-    
+
     /**
      * @Route("/playlists/recherche/{champ}/{table}", name="playlists.findallcontain")
      * @param type $champ
@@ -88,9 +99,11 @@ class PlaylistsController extends AbstractController
     {
         $valeur = $request->get("recherche");
         if ($valeur=="") {
-            $playlists = $this->playlistRepository->findAllOrderBy('name', 'ASC');
-        } else {
+            $playlists = $this->playlistRepository->findAllOrderByName('ASC');
+        } elseif($table=="") {
             $playlists = $this->playlistRepository->findByContainValue($champ, $valeur);
+        } else {
+            $playlists = $this->playlistRepository->findByCategorie($champ, $valeur);
         }
         $categories = $this->categorieRepository->findAll();
         return $this->render(self::PAGES_PLAYLISTS_HTML_TWIG, [
@@ -117,5 +130,5 @@ class PlaylistsController extends AbstractController
             'playlistformations' => $playlistFormations
         ]);
     }
-    
+
 }
