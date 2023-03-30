@@ -1,0 +1,9 @@
+knpu_oauth2_client:
+    clients:
+        keycloack:
+            type: keycloak
+            auth_server_url: '%env(KEYCLOACK_APP_URL)%'
+            realm: 'Applications'
+            client_id: '%env(KEYCLOACK_CLIENTID)%'
+            client_secret: '%env(KEYCLOACK_SECRET)%'
+            redirect_route: 'oauth_check'
