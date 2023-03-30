@@ -1,0 +1,10 @@
+
+dphp:S103"KSplit this 246 characters long line (which is greater than 120 authorized).(ûš“¾øÿÿÿÿ
+^php:S103"KSplit this 275 characters long line (which is greater than 120 authorized).(Ñéô(
+dphp:S103A"KSplit this 246 characters long line (which is greater than 120 authorized).(ûš“¾øÿÿÿÿ
+dphp:S103U"KSplit this 246 characters long line (which is greater than 120 authorized).(ûš“¾øÿÿÿÿ
+dphp:S103i"KSplit this 246 characters long line (which is greater than 120 authorized).(ûš“¾øÿÿÿÿ
+dphp:S103}"KSplit this 246 characters long line (which is greater than 120 authorized).(ûš“¾øÿÿÿÿ
+ephp:S103‘"KSplit this 246 characters long line (which is greater than 120 authorized).(ûš“¾øÿÿÿÿ
+ephp:S103¥"KSplit this 246 characters long line (which is greater than 120 authorized).(ûš“¾øÿÿÿÿ
+‘	php:S1192"wDefine a constant instead of duplicating this literal "Symfony\\Component\\Validator\\Mapping\\ClassMetadata" 14 times.(ûš“¾øÿÿÿÿ

@@ -1,0 +1,15 @@
+<div class="d-flex w-100 justify-content-left mt-1 mb-2">
+    {{ form_start(form) }}
+    <div class="row">
+        <div class="col mt-1" style="max-width: 3rem;">
+            <strong>{{ form_label(form.name) }}</strong>
+        </div>
+        <div class="col" style="width: 30vw">
+            {{ form_widget(form.name) }}
+        </div>
+        <div class="col">
+            <button type="submit" class="btn btn-primary btn-block" style="margin-right: 1rem;">Ajouter une Catégorie</button>
+        </div>
+    {{ form_end(form) }}
+    </div>
+</div>

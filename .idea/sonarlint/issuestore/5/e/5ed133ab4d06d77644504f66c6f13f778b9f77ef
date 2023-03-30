@@ -1,0 +1,20 @@
+
+T	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(å‹T
+_php:S1035"KSplit this 149 characters long line (which is greater than 120 authorized).(Çãê™
+dphp:S1039"KSplit this 176 characters long line (which is greater than 120 authorized).(õã…òüÿÿÿÿ
+_php:S103E"KSplit this 182 characters long line (which is greater than 120 authorized).(ªìÔÆ
+^php:S103W"KSplit this 139 characters long line (which is greater than 120 authorized).(ŠŠÚU
+dphp:S103["KSplit this 180 characters long line (which is greater than 120 authorized).(¨ü®‚ûÿÿÿÿ
+_php:S103"KSplit this 168 characters long line (which is greater than 120 authorized).(ÈÇã
+`php:S103 "KSplit this 164 characters long line (which is greater than 120 authorized).(ƒĞíŞ
+ephp:S103¬"KSplit this 172 characters long line (which is greater than 120 authorized).(ä£ìıÿÿÿÿ
+ephp:S103Ä"KSplit this 135 characters long line (which is greater than 120 authorized).(ø½ÎÁÿÿÿÿÿ
+`php:S103É"KSplit this 156 characters long line (which is greater than 120 authorized).(…è¢Î
+ephp:S103Ô"KSplit this 171 characters long line (which is greater than 120 authorized).(Ëê¥Ÿüÿÿÿÿ
+`php:S103Ú"KSplit this 179 characters long line (which is greater than 120 authorized).(ÀéÌÇ
+rphp:S116"YRename this field "$_usedProperties" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ªó€Œúÿÿÿÿ
+tphp:S117,"[Rename this parameter "$message_class" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(‡‘¾Úÿÿÿÿÿ
+f	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(Ôˆ‰’
+f	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(İÒÎæ
+f	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(¸ú€
+k	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(Œ¤ªÿÿÿÿÿ

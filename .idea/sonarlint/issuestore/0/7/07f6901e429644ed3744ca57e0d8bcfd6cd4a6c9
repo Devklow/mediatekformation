@@ -1,0 +1,25 @@
+
+s%Web:ItemTagNotWithinContainerTagCheckÃ"<Surround this <li> item tag by a <ul> or <ol> container one.(ÀŞí÷ıÿÿÿÿ
+HWeb:TableWithoutCaptionCheckî" Add a description to this table.(ñÎéA
+NWeb:TableWithoutCaptionCheckœ" Add a description to this table.(¿‰˜ÿÿÿÿÿ
+?	Web:S1827Ÿ")Remove this deprecated "width" attribute.(ùˆêì
+h Web:TableHeaderHasIdOrScopeCheckŸ";Add either an 'id' or a 'scope' attribute to this <th> tag.(ùˆêì
+m Web:TableHeaderHasIdOrScopeCheck ";Add either an 'id' or a 'scope' attribute to this <th> tag.(õ¿Ğ…ÿÿÿÿÿ
+NWeb:TableWithoutCaptionCheckÊ" Add a description to this table.(¿‰˜ÿÿÿÿÿ
+?	Web:S1827Í")Remove this deprecated "width" attribute.(ùˆêì
+h Web:TableHeaderHasIdOrScopeCheckÍ";Add either an 'id' or a 'scope' attribute to this <th> tag.(ùˆêì
+m Web:TableHeaderHasIdOrScopeCheckÎ";Add either an 'id' or a 'scope' attribute to this <th> tag.(õ¿Ğ…ÿÿÿÿÿ
+NWeb:TableWithoutCaptionCheckı" Add a description to this table.(¿‰˜ÿÿÿÿÿ
+D	Web:S1827€")Remove this deprecated "width" attribute.(Óš±Ãùÿÿÿÿ
+m Web:TableHeaderHasIdOrScopeCheck€";Add either an 'id' or a 'scope' attribute to this <th> tag.(Óš±Ãùÿÿÿÿ
+m Web:TableHeaderHasIdOrScopeCheck";Add either an 'id' or a 'scope' attribute to this <th> tag.(¶‰¢ğşÿÿÿÿ
+h Web:TableHeaderHasIdOrScopeCheck‚";Add either an 'id' or a 'scope' attribute to this <th> tag.(«ÖŠ¦
+m Web:TableHeaderHasIdOrScopeCheckˆ";Add either an 'id' or a 'scope' attribute to this <th> tag.(Áó±‡ıÿÿÿÿ
+NWeb:TableWithoutCaptionCheck¨" Add a description to this table.(¿‰˜ÿÿÿÿÿ
+D	Web:S1827«")Remove this deprecated "width" attribute.(Óš±Ãùÿÿÿÿ
+m Web:TableHeaderHasIdOrScopeCheck«";Add either an 'id' or a 'scope' attribute to this <th> tag.(Óš±Ãùÿÿÿÿ
+m Web:TableHeaderHasIdOrScopeCheck¬";Add either an 'id' or a 'scope' attribute to this <th> tag.(õ¿Ğ…ÿÿÿÿÿ
+NWeb:TableWithoutCaptionCheckÃ" Add a description to this table.(¿‰˜ÿÿÿÿÿ
+?	Web:S1827Æ")Remove this deprecated "width" attribute.(¤şÏç
+h Web:TableHeaderHasIdOrScopeCheckÆ";Add either an 'id' or a 'scope' attribute to this <th> tag.(¤şÏç
+m Web:TableHeaderHasIdOrScopeCheckÇ";Add either an 'id' or a 'scope' attribute to this <th> tag.(õ¿Ğ…ÿÿÿÿÿ

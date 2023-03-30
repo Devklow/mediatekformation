@@ -1,0 +1,9 @@
+
+cWeb:DoctypePresenceCheck":Insert a <!DOCTYPE> declaration to before this <html> tag.(œ÷Ãûÿÿÿÿ
+Z	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷Ãûÿÿÿÿ
+CWeb:PageWithoutTitleCheck"Add a <title> tag to this page.(Õ¶¯M
+XWeb:UnsupportedTagsInHtml5Check"(Remove this deprecated "spacer" element.(‚–Û—ÿÿÿÿÿ
+XWeb:UnsupportedTagsInHtml5Check"(Remove this deprecated "spacer" element.(ååşÔÿÿÿÿÿ
+XWeb:UnsupportedTagsInHtml5Check#"(Remove this deprecated "spacer" element.(ååşÔÿÿÿÿÿ
+XWeb:UnsupportedTagsInHtml5Check*"(Remove this deprecated "spacer" element.(ååşÔÿÿÿÿÿ
+XWeb:UnsupportedTagsInHtml5Check2"(Remove this deprecated "spacer" element.(ååşÔÿÿÿÿÿ

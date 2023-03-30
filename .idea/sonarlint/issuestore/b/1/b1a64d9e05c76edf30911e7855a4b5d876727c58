@@ -1,0 +1,30 @@
+
+dphp:S103$"KSplit this 171 characters long line (which is greater than 120 authorized).(ìÍ˜ùÿÿÿÿ
+_php:S103%"KSplit this 281 characters long line (which is greater than 120 authorized).(í»ŸŸ
+dphp:S103'"KSplit this 160 characters long line (which is greater than 120 authorized).(œáúÎşÿÿÿÿ
+_php:S103("KSplit this 281 characters long line (which is greater than 120 authorized).(ààì
+^php:S103,"KSplit this 328 characters long line (which is greater than 120 authorized).(ªÄ@
+_php:S1032"KSplit this 408 characters long line (which is greater than 120 authorized).(Ì“¥ô
+_php:S1036"KSplit this 410 characters long line (which is greater than 120 authorized).(õî‡ì
+_php:S103>"KSplit this 350 characters long line (which is greater than 120 authorized).(¼—š…
+dphp:S103I"KSplit this 690 characters long line (which is greater than 120 authorized).(ŸÆŠıÿÿÿÿ
+_php:S103W"KSplit this 129 characters long line (which is greater than 120 authorized).(ëŸÕ¬
+dphp:S103^"KSplit this 175 characters long line (which is greater than 120 authorized).(ÖéÚÖûÿÿÿÿ
+_php:S103a"KSplit this 175 characters long line (which is greater than 120 authorized).(îÖø¢
+`php:S103Š"KSplit this 161 characters long line (which is greater than 120 authorized).(ÇÔÏ
+D	php:S1808q"/Remove all space after the opening parenthesis.(ÃÒœŞ
+€	php:S1808v"fEither split this list into multiple lines, aligned at column "12" or put all arguments on line "118".(æÈ¾îşÿÿÿÿ
+D	php:S1808Š".Move the closing parenthesis on the next line.(ÇÔÏ
+¨php:S101"“Rename class "__TwigTemplate_65739c79d9c5a63bf9075add806c031bedfd37f18a6e1fb4f8a0a181762c257e" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(şÉÚı
+¸php:S117$"Rename this local variable "$__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ìÍ˜ùÿÿÿÿ
+¸php:S117%"£Rename this local variable "$__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(í»ŸŸ
+¸php:S117'"Rename this local variable "$__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(œáúÎşÿÿÿÿ
+¸php:S117("£Rename this local variable "$__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ààì
+sphp:S117V"ZRename this local variable "$_parent" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¡öØİûÿÿÿÿ
+i	php:S3776!"TRefactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.(îÛ¶
+y	php:S1192%"dDefine a constant instead of duplicating this literal "@WebProfiler/Profiler/bag.html.twig" 4 times.(í»ŸŸ
+F	php:S1481#",Remove this unused "$macros" local variable.(Ûûíüÿÿÿÿ
+X	php:S3358,"DExtract this nested ternary operation into an independent statement.(ªÄ@
+Y	php:S33582"DExtract this nested ternary operation into an independent statement.(Ì“¥ô
+Y	php:S33586"DExtract this nested ternary operation into an independent statement.(õî‡ì
+^	php:S3358I"DExtract this nested ternary operation into an independent statement.(ŸÆŠıÿÿÿÿ

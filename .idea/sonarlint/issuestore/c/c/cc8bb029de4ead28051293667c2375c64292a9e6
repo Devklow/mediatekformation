@@ -1,0 +1,16 @@
+
+_php:S103!"KSplit this 174 characters long line (which is greater than 120 authorized).(­ÎĞŞ
+^php:S103-"KSplit this 176 characters long line (which is greater than 120 authorized).(ü‚®h
+dphp:S1039"KSplit this 170 characters long line (which is greater than 120 authorized).(õåÈÍúÿÿÿÿ
+_php:S103E"KSplit this 172 characters long line (which is greater than 120 authorized).(ŒĞ½
+_php:S103Q"KSplit this 178 characters long line (which is greater than 120 authorized).(Š”«º
+_php:S103]"KSplit this 182 characters long line (which is greater than 120 authorized).(Î…‰‘
+`php:S103"KSplit this 156 characters long line (which is greater than 120 authorized).(…è¢Î
+rphp:S116"YRename this field "$_usedProperties" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ªó€Œúÿÿÿÿ
+k	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(°İµúÿÿÿÿ
+k	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(Ÿ‡üÿÿÿÿ
+f	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(Ïğ±ƒ
+f	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(ŸÑª‰
+f	php:S4833	"QReplace "require_once" with namespace import mechanism through the "use" keyword.(íùÒŠ
+k	php:S4833
+"QReplace "require_once" with namespace import mechanism through the "use" keyword.(‘Ï°şÿÿÿÿ

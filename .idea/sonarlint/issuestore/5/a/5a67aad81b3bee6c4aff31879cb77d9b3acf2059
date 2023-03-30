@@ -1,0 +1,29 @@
+
+Z	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(ş¦”£úÿÿÿÿ
+_php:S103H"KSplit this 125 characters long line (which is greater than 120 authorized).(´ğ´ß
+`php:S103¢"KSplit this 142 characters long line (which is greater than 120 authorized).(ó“éİ
+`php:S103Ú"KSplit this 122 characters long line (which is greater than 120 authorized).(æ“š‰
+`php:S103è"KSplit this 187 characters long line (which is greater than 120 authorized).(Ş™¨ø
+`php:S103Ê"KSplit this 198 characters long line (which is greater than 120 authorized).(´…Åœ
+`php:S103Ø"KSplit this 383 characters long line (which is greater than 120 authorized).(Õ­†
+ephp:S103£"KSplit this 144 characters long line (which is greater than 120 authorized).(Ë¸Öäıÿÿÿÿ
+ephp:S103ë"KSplit this 138 characters long line (which is greater than 120 authorized).(±¯Æ şÿÿÿÿ
+ephp:S103ï"KSplit this 172 characters long line (which is greater than 120 authorized).(ÎöéŠÿÿÿÿÿ
+ephp:S103"KSplit this 144 characters long line (which is greater than 120 authorized).(’­Æøÿÿÿÿÿ
+ephp:S103…"KSplit this 176 characters long line (which is greater than 120 authorized).(—¢ÜĞıÿÿÿÿ
+`php:S103Ä"KSplit this 171 characters long line (which is greater than 120 authorized).(¼·Ç•
+ephp:S103Ê"KSplit this 177 characters long line (which is greater than 120 authorized).(ğÖıÎúÿÿÿÿ
+ephp:S103Ğ"KSplit this 171 characters long line (which is greater than 120 authorized).(Æâ¥ªıÿÿÿÿ
+`php:S103Õ"KSplit this 156 characters long line (which is greater than 120 authorized).(…è¢Î
+ephp:S103ğ	"KSplit this 178 characters long line (which is greater than 120 authorized).(á÷úíøÿÿÿÿ
+ephp:S103ó	"KSplit this 184 characters long line (which is greater than 120 authorized).(ı“¹úÿÿÿÿ
+ephp:S103ö	"KSplit this 178 characters long line (which is greater than 120 authorized).(ê‰ëŞıÿÿÿÿ
+rphp:S116E"YRename this field "$_usedProperties" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ªó€Œúÿÿÿÿ
+o	php:S3776š"TRefactor this function to reduce its Cognitive Complexity from 62 to the 15 allowed.(¹öÏúÿÿÿÿ
+j	php:S3776Ù"TRefactor this function to reduce its Cognitive Complexity from 61 to the 15 allowed.(Æ•âÜ
+†	php:S1448"lClass "ConnectionConfig" has 54 methods, which is greater than 20 authorized. Split it into smaller classes.(ş¦”£úÿÿÿÿ
+f	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(•ŞˆÃ
+k	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(úİïœúÿÿÿÿ
+f	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(ïğè
+•php:S138š"{This function "__construct" has 266 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(¹öÏúÿÿÿÿ
+Œphp:S138Ù"wThis function "toArray" has 161 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(Æ•âÜ

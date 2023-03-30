@@ -1,0 +1,7 @@
+
+Z	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(ñÿÂÌúÿÿÿÿ
+`php:S103Ş"KSplit this 156 characters long line (which is greater than 120 authorized).(…è¢Î
+rphp:S116$"YRename this field "$_usedProperties" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ªó€Œúÿÿÿÿ
+o	php:S3776Ñ"TRefactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.(¹öÏúÿÿÿÿ
+j	php:S3776â"TRefactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.(Æ•âÜ
+…	php:S1448"kClass "FormLoginConfig" has 25 methods, which is greater than 20 authorized. Split it into smaller classes.(ñÿÂÌúÿÿÿÿ

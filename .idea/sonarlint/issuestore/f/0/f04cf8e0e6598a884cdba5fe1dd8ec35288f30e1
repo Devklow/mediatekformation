@@ -1,0 +1,25 @@
+
+dphp:S103$"KSplit this 171 characters long line (which is greater than 120 authorized).(ìÍ˜ùÿÿÿÿ
+_php:S103%"KSplit this 285 characters long line (which is greater than 120 authorized).(Úàó¿
+dphp:S103'"KSplit this 160 characters long line (which is greater than 120 authorized).(œáúÎşÿÿÿÿ
+dphp:S103("KSplit this 285 characters long line (which is greater than 120 authorized).(·óªÀÿÿÿÿÿ
+`php:S103+"LSplit this 2147 characters long line (which is greater than 120 authorized).(Êæ†‡
+ephp:S103ó"KSplit this 148 characters long line (which is greater than 120 authorized).(ìÇúĞÿÿÿÿÿ
+ephp:S103ğ"KSplit this 175 characters long line (which is greater than 120 authorized).(ÖéÚÖûÿÿÿÿ
+`php:S103ó"KSplit this 175 characters long line (which is greater than 120 authorized).(îÖø¢
+ephp:S103ş"KSplit this 458 characters long line (which is greater than 120 authorized).(šóúÿÿÿÿ
+fphp:S103ˆ"LSplit this 2133 characters long line (which is greater than 120 authorized).(ÀÑİùşÿÿÿÿ
+ephp:S103Ï"KSplit this 148 characters long line (which is greater than 120 authorized).(ìÇúĞÿÿÿÿÿ
+`php:S103Ê"KSplit this 169 characters long line (which is greater than 120 authorized).(­ƒØ²
+J	php:S1808ş"/Remove all space after the opening parenthesis.(šóúÿÿÿÿ
+‚	php:S1808ƒ"gEither split this list into multiple lines, aligned at column "12" or put all arguments on line "1539".(ş†ˆğüÿÿÿÿ
+D	php:S1808Ê".Move the closing parenthesis on the next line.(­ƒØ²
+¨php:S101"“Rename class "__TwigTemplate_afcfa7141d5a2e688cb5d6ea8665ebea448084e969fda1f6e50a782cce45c551" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(í×í
+¸php:S117$"Rename this local variable "$__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ìÍ˜ùÿÿÿÿ
+¸php:S117%"£Rename this local variable "$__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Úàó¿
+¸php:S117'"Rename this local variable "$__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(œáúÎşÿÿÿÿ
+½php:S117("£Rename this local variable "$__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(·óªÀÿÿÿÿÿ
+}	php:S1192%"hDefine a constant instead of duplicating this literal "@WebProfiler/Profiler/profiler.css.twig" 4 times.(Úàó¿
+F	php:S1481#",Remove this unused "$macros" local variable.(Ûûíüÿÿÿÿ
+php:S138!"zThis function "doDisplay" has 1455 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(îÛ¶
+—php:S138"This function "getSourceContext" has 1483 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(‡äé

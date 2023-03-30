@@ -1,0 +1,34 @@
+
+ephp:S103ˆ"KSplit this 123 characters long line (which is greater than 120 authorized).(Á¸Âäûÿÿÿÿ
+`php:S103‰"KSplit this 122 characters long line (which is greater than 120 authorized).(¡ğóç
+`php:S103Š"KSplit this 125 characters long line (which is greater than 120 authorized).(İ€£
+ephp:S103û"KSplit this 237 characters long line (which is greater than 120 authorized).(™Áÿ¡ûÿÿÿÿ
+ephp:S103‘"KSplit this 237 characters long line (which is greater than 120 authorized).(™Áÿ¡ûÿÿÿÿ
+ephp:S103§"KSplit this 237 characters long line (which is greater than 120 authorized).(™Áÿ¡ûÿÿÿÿ
+ephp:S103½"KSplit this 237 characters long line (which is greater than 120 authorized).(™Áÿ¡ûÿÿÿÿ
+ephp:S103Ó"KSplit this 237 characters long line (which is greater than 120 authorized).(™Áÿ¡ûÿÿÿÿ
+ephp:S103é"KSplit this 237 characters long line (which is greater than 120 authorized).(™Áÿ¡ûÿÿÿÿ
+ephp:S103ÿ"KSplit this 237 characters long line (which is greater than 120 authorized).(™Áÿ¡ûÿÿÿÿ
+ephp:S103•"KSplit this 237 characters long line (which is greater than 120 authorized).(™Áÿ¡ûÿÿÿÿ
+ephp:S103«"KSplit this 237 characters long line (which is greater than 120 authorized).(™Áÿ¡ûÿÿÿÿ
+ephp:S103Á"KSplit this 237 characters long line (which is greater than 120 authorized).(™Áÿ¡ûÿÿÿÿ
+`php:S103×"KSplit this 205 characters long line (which is greater than 120 authorized).(ø¥ÜŠ
+_php:S103ê"KSplit this 205 characters long line (which is greater than 120 authorized).(‹õİN
+ephp:S103ë"KSplit this 162 characters long line (which is greater than 120 authorized).(ç¸İÿÿÿÿÿ
+`php:S103ì"KSplit this 146 characters long line (which is greater than 120 authorized).(“Ü¸Ò
+ephp:S103‡"KSplit this 205 characters long line (which is greater than 120 authorized).(¢À“Øÿÿÿÿÿ
+`php:S103¦"KSplit this 213 characters long line (which is greater than 120 authorized).(áƒùÇ
+`php:S103¼"KSplit this 205 characters long line (which is greater than 120 authorized).(ø¥ÜŠ
+ephp:S103Ï"KSplit this 205 characters long line (which is greater than 120 authorized).(¢À“Øÿÿÿÿÿ
+ephp:S103ë"KSplit this 205 characters long line (which is greater than 120 authorized).(¢À“Øÿÿÿÿÿ
+ephp:S103Š	"KSplit this 205 characters long line (which is greater than 120 authorized).(¢À“Øÿÿÿÿÿ
+ephp:S103¦	"KSplit this 205 characters long line (which is greater than 120 authorized).(¢À“Øÿÿÿÿÿ
+ephp:S103Å	"KSplit this 211 characters long line (which is greater than 120 authorized).(Ò¥°Àüÿÿÿÿ
+`php:S103Û	"KSplit this 213 characters long line (which is greater than 120 authorized).(áƒùÇ
+`php:S103ñ	"KSplit this 205 characters long line (which is greater than 120 authorized).(ø¥ÜŠ
+`php:S103„
+"KSplit this 211 characters long line (which is greater than 120 authorized).(áâñÕ
+v	php:S1192ì"`Define a constant instead of duplicating this literal "Doctrine\\ORM\\Mapping\\Column" 12 times.(“Ü¸Ò
+y	php:S1192¦"cDefine a constant instead of duplicating this literal "Doctrine\\ORM\\Mapping\\ManyToMany" 4 times.(áƒùÇ
+‹	php:S1192û"pDefine a constant instead of duplicating this literal "Symfony\\Component\\Routing\\Annotation\\Route" 30 times.(™Áÿ¡ûÿÿÿÿ
+u	php:S1192×"_Define a constant instead of duplicating this literal "Doctrine\\ORM\\Mapping\\Entity" 6 times.(ø¥ÜŠ

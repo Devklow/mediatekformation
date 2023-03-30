@@ -26,6 +26,9 @@
                         <a class="nav-link" href="{{ path('admin.playlists.index') }}">Playlists</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="{{ path('admin.categories.index') }}">Catégories</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="{{ path('accueil') }}">Retour à l'application</a>
                     </li>
                 </ul>
@@ -51,4 +54,11 @@
         </footer>
     </div>
 {% endblock %}
-{% block javascripts %}{% endblock %}
+
+{% block javascripts %}
+    <script>
+        let tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        let tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })</script>
+{% endblock %}

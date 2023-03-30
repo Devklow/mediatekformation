@@ -1,0 +1,12 @@
+
+U	php:S1131@"@Remove the useless trailing whitespaces at the end of this line.(óËµ¤
+U	php:S1131M"@Remove the useless trailing whitespaces at the end of this line.(óËµ¤
+U	php:S1131c"@Remove the useless trailing whitespaces at the end of this line.(óËµ¤
+^php:S103F"KSplit this 264 characters long line (which is greater than 120 authorized).(­ÿ…
+^php:S103I"KSplit this 260 characters long line (which is greater than 120 authorized).(­ÿ…
+D	php:S1808Q"/Remove all space after the opening parenthesis.(ùõÔÜ
+I	php:S1808Y"/Remove all space after the opening parenthesis.(ÉÅ²ğøÿÿÿÿ
+rphp:S116"YRename this field "$__initializer__" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(‚ªŒöüÿÿÿÿ
+mphp:S116"TRename this field "$__cloner__" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(›Ìşíúÿÿÿÿ
+ophp:S116 "[Rename this field "$__isInitialized__" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(°âÔ
+j	php:S1192F"VDefine a constant instead of duplicating this literal "App\\Entity\\Playlist" 8 times.(­ÿ…

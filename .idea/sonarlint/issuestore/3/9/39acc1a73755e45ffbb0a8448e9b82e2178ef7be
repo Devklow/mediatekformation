@@ -1,0 +1,47 @@
+
+Z	php:S1131P"@Remove the useless trailing whitespaces at the end of this line.(Ÿñõýúÿÿÿÿ
+Z	php:S1131X"@Remove the useless trailing whitespaces at the end of this line.(®’Öÿÿÿÿÿ
+[	php:S1131¤"@Remove the useless trailing whitespaces at the end of this line.(ÛÖñ©úÿÿÿÿ
+[	php:S1131¬"@Remove the useless trailing whitespaces at the end of this line.(®’Öÿÿÿÿÿ
+dphp:S103)"KSplit this 171 characters long line (which is greater than 120 authorized).(ìÍ˜Žùÿÿÿÿ
+dphp:S103*"KSplit this 271 characters long line (which is greater than 120 authorized).(ð“è™øÿÿÿÿ
+dphp:S103,"KSplit this 160 characters long line (which is greater than 120 authorized).(œáúÎþÿÿÿÿ
+dphp:S103-"KSplit this 271 characters long line (which is greater than 120 authorized).(ª£çþÿÿÿÿ
+dphp:S1032"KSplit this 175 characters long line (which is greater than 120 authorized).(ÖéÚÖûÿÿÿÿ
+_php:S1035"KSplit this 175 characters long line (which is greater than 120 authorized).(îÖø¢
+dphp:S103="KSplit this 171 characters long line (which is greater than 120 authorized).(ìÍ˜Žùÿÿÿÿ
+_php:S103>"KSplit this 247 characters long line (which is greater than 120 authorized).(‘¯¨ª
+dphp:S103@"KSplit this 160 characters long line (which is greater than 120 authorized).(œáúÎþÿÿÿÿ
+dphp:S103A"KSplit this 247 characters long line (which is greater than 120 authorized).(ÙŒõ™þÿÿÿÿ
+dphp:S103I"KSplit this 309 characters long line (which is greater than 120 authorized).(œÖ‚Çþÿÿÿÿ
+dphp:S103K"KSplit this 122 characters long line (which is greater than 120 authorized).(÷õ¬’úÿÿÿÿ
+_php:S103O"KSplit this 364 characters long line (which is greater than 120 authorized).(Ê€Ëò
+dphp:S103`"KSplit this 372 characters long line (which is greater than 120 authorized).(ÙØ’´üÿÿÿÿ
+dphp:S103d"KSplit this 360 characters long line (which is greater than 120 authorized).(©åš„øÿÿÿÿ
+dphp:S103h"KSplit this 454 characters long line (which is greater than 120 authorized).(ÛÜ²Ñÿÿÿÿÿ
+_php:S103n"KSplit this 352 characters long line (which is greater than 120 authorized).(ÐäÚ“
+_php:S103r"KSplit this 182 characters long line (which is greater than 120 authorized).(€õŽ
+_php:S103w"KSplit this 135 characters long line (which is greater than 120 authorized).(Ïìùì
+^php:S103~"KSplit this 378 characters long line (which is greater than 120 authorized).(¸ÎŠO
+`php:S103„"KSplit this 175 characters long line (which is greater than 120 authorized).(îÖø¢
+ephp:S103‡"KSplit this 175 characters long line (which is greater than 120 authorized).(ÖéÚÖûÿÿÿÿ
+ephp:S103—"KSplit this 178 characters long line (which is greater than 120 authorized).(…³³üÿÿÿÿ
+ephp:S103¼"KSplit this 123 characters long line (which is greater than 120 authorized).(²ÂÚÓøÿÿÿÿ
+J	php:S1808—"/Remove all space after the opening parenthesis.(…³³üÿÿÿÿ
+	php:S1808œ"fEither split this list into multiple lines, aligned at column "12" or put all arguments on line "156".(Ÿïù±ýÿÿÿÿ
+I	php:S1808¼".Move the closing parenthesis on the next line.(²ÂÚÓøÿÿÿÿ
+­php:S101"“Rename class "__TwigTemplate_962d3333b1c72f8a23c88a9e8e79650b78110d98d210681c27cc95c4f1ea785b" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(³¿óŸþÿÿÿÿ
+¸php:S117)"žRename this local variable "$__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ìÍ˜Žùÿÿÿÿ
+½php:S117*"£Rename this local variable "$__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ð“è™øÿÿÿÿ
+¸php:S117,"žRename this local variable "$__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(œáúÎþÿÿÿÿ
+½php:S117-"£Rename this local variable "$__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ª£çþÿÿÿÿ
+¸php:S117="žRename this local variable "$__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ìÍ˜Žùÿÿÿÿ
+¸php:S117>"£Rename this local variable "$__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(‘¯¨ª
+¸php:S117@"žRename this local variable "$__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(œáúÎþÿÿÿÿ
+½php:S117A"£Rename this local variable "$__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ÙŒõ™þÿÿÿÿ
+sphp:S117v"ZRename this local variable "$_parent" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¡öØÝûÿÿÿÿ
+h	php:S3776:"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(ÉïØ
+t	php:S1192*"ZDefine a constant instead of duplicating this literal "pages/formation.html.twig" 5 times.(ð“è™øÿÿÿÿ
+	php:S1192I"eDefine a constant instead of duplicating this literal "Variable "formation" does not exist." 7 times.(œÖ‚Çþÿÿÿÿ
+F	php:S1481<",Remove this unused "$macros" local variable.(Ûûíüÿÿÿÿ
+F	php:S1481(",Remove this unused "$macros" local variable.(Ûûíüÿÿÿÿ

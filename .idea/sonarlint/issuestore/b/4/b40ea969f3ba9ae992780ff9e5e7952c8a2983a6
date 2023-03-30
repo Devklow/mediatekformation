@@ -1,0 +1,14 @@
+
+U	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(„Ë÷¯
+_php:S103."KSplit this 125 characters long line (which is greater than 120 authorized).(´ğ´ß
+`php:S103ˆ"KSplit this 142 characters long line (which is greater than 120 authorized).(ó“éİ
+`php:S103À"KSplit this 122 characters long line (which is greater than 120 authorized).(æ“š‰
+`php:S103Î"KSplit this 187 characters long line (which is greater than 120 authorized).(Ş™¨ø
+`php:S103°"KSplit this 198 characters long line (which is greater than 120 authorized).(´…Åœ
+`php:S103¾"KSplit this 383 characters long line (which is greater than 120 authorized).(Õ­†
+`php:S103‚"KSplit this 156 characters long line (which is greater than 120 authorized).(…è¢Î
+rphp:S116+"YRename this field "$_usedProperties" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ªó€Œúÿÿÿÿ
+o	php:S3776Ë"TRefactor this function to reduce its Cognitive Complexity from 31 to the 15 allowed.(¹öÏúÿÿÿÿ
+j	php:S3776†"TRefactor this function to reduce its Cognitive Complexity from 30 to the 15 allowed.(Æ•âÜ
+|	php:S1448"gClass "SlaveConfig" has 32 methods, which is greater than 20 authorized. Split it into smaller classes.(„Ë÷¯
+•php:S138Ë"{This function "__construct" has 156 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(¹öÏúÿÿÿÿ

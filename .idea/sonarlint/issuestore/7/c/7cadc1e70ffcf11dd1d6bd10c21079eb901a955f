@@ -1,0 +1,51 @@
+
+T	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(°ü|
+ephp:S103ô"KSplit this 200 characters long line (which is greater than 120 authorized).(¼ÊºÆùÿÿÿÿ
+`php:S103¥	"KSplit this 180 characters long line (which is greater than 120 authorized).(¾¹òâ
+ephp:S103»	"KSplit this 172 characters long line (which is greater than 120 authorized).(£ï“°ıÿÿÿÿ
+ephp:S103Ñ	"KSplit this 188 characters long line (which is greater than 120 authorized).(áèŒõúÿÿÿÿ
+`php:S103
+"KSplit this 172 characters long line (which is greater than 120 authorized).(«…œß
+`php:S103¤
+"KSplit this 174 characters long line (which is greater than 120 authorized).(¾öï¡
+`php:S103†"KSplit this 190 characters long line (which is greater than 120 authorized).(¦„¼Ó
+`php:S103©"KSplit this 192 characters long line (which is greater than 120 authorized).(ğÒã¡
+ephp:S103¿"KSplit this 178 characters long line (which is greater than 120 authorized).(îşúıÿÿÿÿ
+`php:S103ù"KSplit this 224 characters long line (which is greater than 120 authorized).(°ÅÄ
+`php:S103Ó"KSplit this 197 characters long line (which is greater than 120 authorized).(ï©¶Ş
+ephp:S103©"KSplit this 165 characters long line (which is greater than 120 authorized).(°§­ÿùÿÿÿÿ
+_php:S103¯"KSplit this 145 characters long line (which is greater than 120 authorized).(ŸõÏ
+`php:S103µ"KSplit this 185 characters long line (which is greater than 120 authorized).(¹½õ™
+_php:S103Í"KSplit this 145 characters long line (which is greater than 120 authorized).(Ûîïu
+ephp:S103Ó"KSplit this 150 characters long line (which is greater than 120 authorized).(÷µı¶şÿÿÿÿ
+ephp:S103ı"KSplit this 193 characters long line (which is greater than 120 authorized).(ãâİùÿÿÿÿ
+ephp:S103‰"KSplit this 198 characters long line (which is greater than 120 authorized).(œŸî·ÿÿÿÿÿ
+`php:S103"KSplit this 160 characters long line (which is greater than 120 authorized).(ıí‘Ú
+`php:S103”"KSplit this 156 characters long line (which is greater than 120 authorized).(…è¢Î
+`php:S103´"KSplit this 219 characters long line (which is greater than 120 authorized).(¹ˆå
+`php:S103á"KSplit this 204 characters long line (which is greater than 120 authorized).(—ËãÖ
+`php:S103Œ"KSplit this 166 characters long line (which is greater than 120 authorized).(‹ãÍ®
+`php:S103"KSplit this 146 characters long line (which is greater than 120 authorized).(Š¶ºé
+ephp:S103’"KSplit this 186 characters long line (which is greater than 120 authorized).(–€Ç‹ûÿÿÿÿ
+`php:S103"KSplit this 146 characters long line (which is greater than 120 authorized).(øºø¾
+`php:S103¡"KSplit this 151 characters long line (which is greater than 120 authorized).(Ã„˜¬
+`php:S103¶"KSplit this 192 characters long line (which is greater than 120 authorized).(ı×Ä®
+ephp:S103¼"KSplit this 197 characters long line (which is greater than 120 authorized).(î§õ´üÿÿÿÿ
+ephp:S103¿"KSplit this 161 characters long line (which is greater than 120 authorized).(Ãıûÿÿÿÿ
+rphp:S116z"YRename this field "$_usedProperties" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ªó€Œúÿÿÿÿ
+p	php:S3776Å"URefactor this function to reduce its Cognitive Complexity from 120 to the 15 allowed.(¹öÏúÿÿÿÿ
+k	php:S3776˜"URefactor this function to reduce its Cognitive Complexity from 119 to the 15 allowed.(Æ•âÜ
+~	php:S1448"jClass "HandlerConfig" has 100 methods, which is greater than 20 authorized. Split it into smaller classes.(°ü|
+k	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(“ˆ×Šÿÿÿÿÿ
+k	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(°Ğè¡øÿÿÿÿ
+f	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(‚²¹±
+e	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(ŞÂ˜,
+f	php:S4833	"QReplace "require_once" with namespace import mechanism through the "use" keyword.(‡‘°‚
+f	php:S4833
+"QReplace "require_once" with namespace import mechanism through the "use" keyword.(Êá¸à
+e	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(‰ğÓ
+k	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(ú…–øÿÿÿÿ
+k	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(Õÿâıÿÿÿÿ
+k	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(óœÍÆúÿÿÿÿ
+•php:S138Å"{This function "__construct" has 496 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(¹öÏúÿÿÿÿ
+Œphp:S138˜"wThis function "toArray" has 299 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(Æ•âÜ

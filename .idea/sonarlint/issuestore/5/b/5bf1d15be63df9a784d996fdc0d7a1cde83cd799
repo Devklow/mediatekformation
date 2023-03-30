@@ -1,0 +1,28 @@
+
+dphp:S103g"KSplit this 135 characters long line (which is greater than 120 authorized).(ôôö¡üÿÿÿÿ
+^php:S103z"KSplit this 204 characters long line (which is greater than 120 authorized).(ş¿Ã
+ephp:S103Œ"KSplit this 124 characters long line (which is greater than 120 authorized).(ï÷¸ıÿÿÿÿ
+`php:S103"KSplit this 176 characters long line (which is greater than 120 authorized).(í­°Ì
+`php:S103¢"KSplit this 145 characters long line (which is greater than 120 authorized).(Ú´ĞÉ
+`php:S103¦"KSplit this 190 characters long line (which is greater than 120 authorized).(ÅÁİ
+`php:S103²"KSplit this 178 characters long line (which is greater than 120 authorized).(ˆ©±Ş
+ephp:S103¾"KSplit this 178 characters long line (which is greater than 120 authorized).(¥¶Ëüşÿÿÿÿ
+`php:S103„"KSplit this 135 characters long line (which is greater than 120 authorized).(Õã…
+ephp:S103Š"KSplit this 155 characters long line (which is greater than 120 authorized).(ŸÕ €şÿÿÿÿ
+ephp:S103"KSplit this 177 characters long line (which is greater than 120 authorized).(Æ–ÎÒùÿÿÿÿ
+ephp:S103–"KSplit this 137 characters long line (which is greater than 120 authorized).(£àûÿÿÿÿ
+`php:S103œ"KSplit this 137 characters long line (which is greater than 120 authorized).(†×æ
+`php:S103¢"KSplit this 151 characters long line (which is greater than 120 authorized).(ìÆàå
+`php:S103­"KSplit this 156 characters long line (which is greater than 120 authorized).(…è¢Î
+`php:S103Ê"KSplit this 162 characters long line (which is greater than 120 authorized).(ïßš‚
+`php:S103Í"KSplit this 184 characters long line (which is greater than 120 authorized).(¼†Ä€
+rphp:S116!"YRename this field "$_usedProperties" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ªó€Œúÿÿÿÿ
+o	php:S3776Ü"TRefactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.(¹öÏúÿÿÿÿ
+j	php:S3776±"TRefactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.(Æ•âÜ
+k	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(ÀŒŒİúÿÿÿÿ
+e	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(€ğı
+k	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(ø»‹Öÿÿÿÿÿ
+k	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(ŠøàÊıÿÿÿÿ
+k	php:S4833	"QReplace "require_once" with namespace import mechanism through the "use" keyword.(ÌÈÚ”şÿÿÿÿ
+k	php:S4833
+"QReplace "require_once" with namespace import mechanism through the "use" keyword.(‘˜˜¢ùÿÿÿÿ

@@ -1,0 +1,21 @@
+
+Z	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(ßŸ§°ùÿÿÿÿ
+^php:S103."KSplit this 182 characters long line (which is greater than 120 authorized).(„€
+_php:S103A"KSplit this 123 characters long line (which is greater than 120 authorized).(Ïä–¬
+dphp:S103G"KSplit this 186 characters long line (which is greater than 120 authorized).(ñÀ‘ûÿÿÿÿ
+`php:S103°"KSplit this 187 characters long line (which is greater than 120 authorized).(±¾ÌÖ
+`php:S103¼"KSplit this 134 characters long line (which is greater than 120 authorized).(¡´ª¸
+ephp:S103Ú"KSplit this 176 characters long line (which is greater than 120 authorized).(Ê‚ÛÕÿÿÿÿÿ
+`php:S103à"KSplit this 191 characters long line (which is greater than 120 authorized).(€ú´’
+`php:S103ë"KSplit this 156 characters long line (which is greater than 120 authorized).(…è¢Î
+ephp:S103ó"KSplit this 186 characters long line (which is greater than 120 authorized).(ğèÂúÿÿÿÿ
+ephp:S103ˆ"KSplit this 183 characters long line (which is greater than 120 authorized).(™˜Ÿûÿÿÿÿ
+ephp:S103‹"KSplit this 198 characters long line (which is greater than 120 authorized).(²Ìûÿÿÿÿ
+C	php:S1781z")Write this "NULL" constant in lower case.(ŞàõÊÿÿÿÿÿ
+rphp:S116"YRename this field "$_usedProperties" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ªó€Œúÿÿÿÿ
+o	php:S3776¬"TRefactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.(¹öÏúÿÿÿÿ
+j	php:S3776ï"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(Æ•âÜ
+f	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(Éš­³
+k	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(»¨Œ…ÿÿÿÿÿ
+k	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(“ë‡Åùÿÿÿÿ
+k	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(°»€£şÿÿÿÿ

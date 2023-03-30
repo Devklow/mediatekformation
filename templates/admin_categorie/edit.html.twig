@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Modifier une Catégorie{% endblock %}
+
+{% block body %}
+    <div class="card d-flex mt-5 w-75 offset-2">
+        <div class="card-header"><h1>Modifier une Catégorie</h1></div>
+        <div class="card-body">
+            {{ form_start(form) }}
+            {{ form_widget(form) }}
+            <div class="d-flex w-100 justify-content-center mt-3 mb-3">
+                <button type="submit" class="btn btn-primary" style="margin-right: 1rem;">Modifier</button>
+                <a class="btn btn-secondary" style="margin-right: 1rem;" href="{{ path('admin.categories.index') }}">Retour</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}

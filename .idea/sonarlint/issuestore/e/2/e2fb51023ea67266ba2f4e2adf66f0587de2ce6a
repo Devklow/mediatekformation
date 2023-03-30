@@ -1,0 +1,9 @@
+
+U	php:S1131"@Remove the useless trailing whitespaces at the end of this line.( Û…®
+dphp:S103!"KSplit this 128 characters long line (which is greater than 120 authorized).(…þòÑþÿÿÿÿ
+_php:S103%"KSplit this 122 characters long line (which is greater than 120 authorized).(ÌÐ®ê
+dphp:S103'"KSplit this 196 characters long line (which is greater than 120 authorized).(Ðæ‹‰øÿÿÿÿ
+dphp:S1037"KSplit this 144 characters long line (which is greater than 120 authorized).(å›ÊÙùÿÿÿÿ
+_php:S103<"KSplit this 156 characters long line (which is greater than 120 authorized).(…è¢Î
+rphp:S116"YRename this field "$_usedProperties" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ªó€Œúÿÿÿÿ
+k	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(þÁæûþÿÿÿÿ

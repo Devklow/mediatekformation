@@ -1,0 +1,52 @@
+
+[	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(í­ô÷ıÿÿÿÿ
+dphp:S103."KSplit this 171 characters long line (which is greater than 120 authorized).(ìÍ˜ùÿÿÿÿ
+_php:S103/"KSplit this 265 characters long line (which is greater than 120 authorized).(Ó¾ˆî
+dphp:S1031"KSplit this 160 characters long line (which is greater than 120 authorized).(œáúÎşÿÿÿÿ
+dphp:S1032"KSplit this 265 characters long line (which is greater than 120 authorized).(ĞŒÂşÿÿÿÿ
+dphp:S1037"KSplit this 175 characters long line (which is greater than 120 authorized).(ÖéÚÖûÿÿÿÿ
+_php:S103:"KSplit this 175 characters long line (which is greater than 120 authorized).(îÖø¢
+dphp:S103B"KSplit this 171 characters long line (which is greater than 120 authorized).(ìÍ˜ùÿÿÿÿ
+_php:S103C"KSplit this 248 characters long line (which is greater than 120 authorized).(Ãæµ
+dphp:S103E"KSplit this 160 characters long line (which is greater than 120 authorized).(œáúÎşÿÿÿÿ
+dphp:S103F"KSplit this 248 characters long line (which is greater than 120 authorized).(ïÊ—ïúÿÿÿÿ
+_php:S103I"KSplit this 175 characters long line (which is greater than 120 authorized).(îÖø¢
+dphp:S103L"KSplit this 175 characters long line (which is greater than 120 authorized).(ÖéÚÖûÿÿÿÿ
+dphp:S103T"KSplit this 171 characters long line (which is greater than 120 authorized).(ìÍ˜ùÿÿÿÿ
+_php:S103U"KSplit this 254 characters long line (which is greater than 120 authorized).(²ãü½
+dphp:S103W"KSplit this 160 characters long line (which is greater than 120 authorized).(œáúÎşÿÿÿÿ
+^php:S103X"KSplit this 254 characters long line (which is greater than 120 authorized).(Á÷ç=
+_php:S103["KSplit this 175 characters long line (which is greater than 120 authorized).(îÖø¢
+dphp:S103^"KSplit this 175 characters long line (which is greater than 120 authorized).(ÖéÚÖûÿÿÿÿ
+dphp:S103f"KSplit this 171 characters long line (which is greater than 120 authorized).(ìÍ˜ùÿÿÿÿ
+_php:S103g"KSplit this 246 characters long line (which is greater than 120 authorized).(¸Âç
+dphp:S103i"KSplit this 160 characters long line (which is greater than 120 authorized).(œáúÎşÿÿÿÿ
+dphp:S103j"KSplit this 246 characters long line (which is greater than 120 authorized).(‘Æ™ùÿÿÿÿ
+dphp:S103r"KSplit this 456 characters long line (which is greater than 120 authorized).(æÿÔûÿÿÿÿ
+`php:S103˜"KSplit this 123 characters long line (which is greater than 120 authorized).(Çâ„”
+`php:S103"KSplit this 133 characters long line (which is greater than 120 authorized).(»‘¯
+{	php:S1808Œ"fEither split this list into multiple lines, aligned at column "12" or put all arguments on line "237".(±Ã‡
+D	php:S1808".Move the closing parenthesis on the next line.(»‘¯
+¨php:S101"“Rename class "__TwigTemplate_6e54bc56a3f26befef9a7f855704506dc0850e235bc9ed184d5d99f041ebe0bb" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(ÇªïÕ
+¸php:S117."Rename this local variable "$__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ìÍ˜ùÿÿÿÿ
+¸php:S117/"£Rename this local variable "$__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Ó¾ˆî
+¸php:S1171"Rename this local variable "$__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(œáúÎşÿÿÿÿ
+½php:S1172"£Rename this local variable "$__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ĞŒÂşÿÿÿÿ
+¸php:S117B"Rename this local variable "$__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ìÍ˜ùÿÿÿÿ
+¸php:S117C"£Rename this local variable "$__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Ãæµ
+¸php:S117E"Rename this local variable "$__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(œáúÎşÿÿÿÿ
+½php:S117F"£Rename this local variable "$__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ïÊ—ïúÿÿÿÿ
+¸php:S117T"Rename this local variable "$__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ìÍ˜ùÿÿÿÿ
+¸php:S117U"£Rename this local variable "$__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(²ãü½
+¸php:S117W"Rename this local variable "$__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(œáúÎşÿÿÿÿ
+·php:S117X"£Rename this local variable "$__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Á÷ç=
+¸php:S117f"Rename this local variable "$__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ìÍ˜ùÿÿÿÿ
+¸php:S117g"£Rename this local variable "$__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¸Âç
+¸php:S117i"Rename this local variable "$__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(œáúÎşÿÿÿÿ
+½php:S117j"£Rename this local variable "$__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(‘Æ™ùÿÿÿÿ
+	php:S11921"tDefine a constant instead of duplicating this literal "Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension" 7 times.(œáúÎşÿÿÿÿ
+™	php:S1192."Define a constant instead of duplicating this literal "Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension" 7 times.(ìÍ˜ùÿÿÿÿ
+F	php:S1481e",Remove this unused "$macros" local variable.(Ûûíüÿÿÿÿ
+F	php:S1481S",Remove this unused "$macros" local variable.(Ûûíüÿÿÿÿ
+F	php:S1481A",Remove this unused "$macros" local variable.(Ûûíüÿÿÿÿ
+F	php:S1481-",Remove this unused "$macros" local variable.(Ûûíüÿÿÿÿ

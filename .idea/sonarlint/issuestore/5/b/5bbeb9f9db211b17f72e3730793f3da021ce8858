@@ -1,0 +1,32 @@
+
+dphp:S103$"KSplit this 171 characters long line (which is greater than 120 authorized).(ìÍ˜ùÿÿÿÿ
+dphp:S103%"KSplit this 283 characters long line (which is greater than 120 authorized).(ñ´°Àûÿÿÿÿ
+dphp:S103'"KSplit this 160 characters long line (which is greater than 120 authorized).(œáúÎşÿÿÿÿ
+_php:S103("KSplit this 283 characters long line (which is greater than 120 authorized).(ïŒæ¦
+^php:S103+"KSplit this 340 characters long line (which is greater than 120 authorized).(­Å
+_php:S1035"KSplit this 353 characters long line (which is greater than 120 authorized).(Ä²ØÇ
+_php:S103>"KSplit this 135 characters long line (which is greater than 120 authorized).(ıÂ
+^php:S103G"KSplit this 239 characters long line (which is greater than 120 authorized).(æ–­b
+dphp:S103R"KSplit this 130 characters long line (which is greater than 120 authorized).(¨Ù°«úÿÿÿÿ
+_php:S103W"KSplit this 137 characters long line (which is greater than 120 authorized).(Ÿøöö
+dphp:S103^"KSplit this 133 characters long line (which is greater than 120 authorized).(çö©ùÿÿÿÿ
+dphp:S103k"KSplit this 239 characters long line (which is greater than 120 authorized).(õ¶èùÿÿÿÿ
+dphp:S103s"KSplit this 133 characters long line (which is greater than 120 authorized).(çö©ùÿÿÿÿ
+dphp:S103z"KSplit this 175 characters long line (which is greater than 120 authorized).(ÖéÚÖûÿÿÿÿ
+_php:S103}"KSplit this 175 characters long line (which is greater than 120 authorized).(îÖø¢
+`php:S103"KSplit this 210 characters long line (which is greater than 120 authorized).(Å‡Ñ¢
+ephp:S103®"KSplit this 165 characters long line (which is greater than 120 authorized).(êíûÌüÿÿÿÿ
+E	php:S1808"/Remove all space after the opening parenthesis.(Å‡Ñ¢
+	php:S1808’"fEither split this list into multiple lines, aligned at column "12" or put all arguments on line "146".(Áü‰Üüÿÿÿÿ
+I	php:S1808®".Move the closing parenthesis on the next line.(êíûÌüÿÿÿÿ
+¨php:S101"“Rename class "__TwigTemplate_633ac5f6f6b262636ff16aefcbe284d7d6a8296515b6dd6df1ca01089045a874" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(„ËˆÜ
+¸php:S117$"Rename this local variable "$__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ìÍ˜ùÿÿÿÿ
+½php:S117%"£Rename this local variable "$__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ñ´°Àûÿÿÿÿ
+¸php:S117'"Rename this local variable "$__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(œáúÎşÿÿÿÿ
+¸php:S117("£Rename this local variable "$__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ïŒæ¦
+sphp:S117="ZRename this local variable "$_parent" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¡öØİûÿÿÿÿ
+i	php:S3776!"TRefactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.(îÛ¶
+5	php:S1110+"!Remove these useless parentheses.(­Å
+t	php:S1192+"`Define a constant instead of duplicating this literal "Variable "data" does not exist." 4 times.(­Å
+€	php:S1192%"fDefine a constant instead of duplicating this literal "@Doctrine/Collector/explain.html.twig" 4 times.(ñ´°Àûÿÿÿÿ
+F	php:S1481#",Remove this unused "$macros" local variable.(Ûûíüÿÿÿÿ

@@ -1,0 +1,17 @@
+
+Z	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(ÖáÈ•úÿÿÿÿ
+dphp:S103,"KSplit this 147 characters long line (which is greater than 120 authorized).(€…Òäùÿÿÿÿ
+ephp:S103ç"KSplit this 133 characters long line (which is greater than 120 authorized).(Ø³ù«ıÿÿÿÿ
+`php:S103ë"KSplit this 127 characters long line (which is greater than 120 authorized).(‰¦­å
+ephp:S103í"KSplit this 192 characters long line (which is greater than 120 authorized).(ŞÀ™øÿÿÿÿ
+ephp:S103ƒ"KSplit this 184 characters long line (which is greater than 120 authorized).(£’ÂÒøÿÿÿÿ
+`php:S103—"KSplit this 147 characters long line (which is greater than 120 authorized).(ùÛŒÜ
+`php:S103"KSplit this 196 characters long line (which is greater than 120 authorized).(­ªÅş
+`php:S103¢"KSplit this 156 characters long line (which is greater than 120 authorized).(…è¢Î
+`php:S103ò"KSplit this 195 characters long line (which is greater than 120 authorized).(ÀˆÂ…
+rphp:S116)"YRename this field "$_usedProperties" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ªó€Œúÿÿÿÿ
+o	php:S3776‰"TRefactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.(¹öÏúÿÿÿÿ
+j	php:S3776¦"TRefactor this function to reduce its Cognitive Complexity from 27 to the 15 allowed.(Æ•âÜ
+ˆ	php:S1448"nClass "ScopedClientConfig" has 27 methods, which is greater than 20 authorized. Split it into smaller classes.(ÖáÈ•úÿÿÿÿ
+f	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(Ë¦Áì
+f	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(Ùş“€

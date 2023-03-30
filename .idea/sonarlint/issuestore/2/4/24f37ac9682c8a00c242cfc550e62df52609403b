@@ -1,0 +1,20 @@
+
+dphp:S103$"KSplit this 171 characters long line (which is greater than 120 authorized).(ìÍ˜ùÿÿÿÿ
+dphp:S103%"KSplit this 268 characters long line (which is greater than 120 authorized).(œ°ÇËıÿÿÿÿ
+dphp:S103'"KSplit this 160 characters long line (which is greater than 120 authorized).(œáúÎşÿÿÿÿ
+_php:S103("KSplit this 268 characters long line (which is greater than 120 authorized).(ĞÅĞº
+ephp:S103°"KSplit this 175 characters long line (which is greater than 120 authorized).(ÖéÚÖûÿÿÿÿ
+`php:S103³"KSplit this 175 characters long line (which is greater than 120 authorized).(îÖø¢
+`php:S103Æ"KSplit this 140 characters long line (which is greater than 120 authorized).(€Ôô
+E	php:S1808¾"/Remove all space after the opening parenthesis.(£Î¤±
+‚	php:S1808Ã"gEither split this list into multiple lines, aligned at column "12" or put all arguments on line "1731".(µ¥‰óøÿÿÿÿ
+D	php:S1808Æ".Move the closing parenthesis on the next line.(€Ôô
+­php:S101"“Rename class "__TwigTemplate_13ac7ac2d4b5f34c055fec214cf226e64ab1c11384e37e08795fc6794e79509b" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(›‘Ü†ÿÿÿÿÿ
+¸php:S117$"Rename this local variable "$__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ìÍ˜ùÿÿÿÿ
+½php:S117%"£Rename this local variable "$__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(œ°ÇËıÿÿÿÿ
+¸php:S117'"Rename this local variable "$__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(œáúÎşÿÿÿÿ
+¸php:S117("£Rename this local variable "$__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ĞÅĞº
+q	php:S1192%"WDefine a constant instead of duplicating this literal "@email/zurb_2/main.css" 4 times.(œ°ÇËıÿÿÿÿ
+F	php:S1481#",Remove this unused "$macros" local variable.(Ûûíüÿÿÿÿ
+php:S138!"zThis function "doDisplay" has 1678 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(îÛ¶
+—php:S138Á"This function "getSourceContext" has 1671 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(‡äé

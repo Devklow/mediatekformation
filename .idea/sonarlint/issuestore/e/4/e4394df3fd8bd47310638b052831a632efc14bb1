@@ -1,0 +1,20 @@
+
+dphp:S103$"KSplit this 171 characters long line (which is greater than 120 authorized).(ìÍ˜ùÿÿÿÿ
+dphp:S103%"KSplit this 272 characters long line (which is greater than 120 authorized).(™ñÕÖøÿÿÿÿ
+dphp:S103'"KSplit this 160 characters long line (which is greater than 120 authorized).(œáúÎşÿÿÿÿ
+_php:S103("KSplit this 272 characters long line (which is greater than 120 authorized).(È»Ûœ
+_php:S103+"KSplit this 456 characters long line (which is greater than 120 authorized).(ˆ¼Ê„
+dphp:S103."KSplit this 175 characters long line (which is greater than 120 authorized).(ÖéÚÖûÿÿÿÿ
+_php:S1031"KSplit this 175 characters long line (which is greater than 120 authorized).(îÖø¢
+dphp:S103A"KSplit this 469 characters long line (which is greater than 120 authorized).(åÀ€üÿÿÿÿ
+^php:S103B"KSplit this 143 characters long line (which is greater than 120 authorized).(¹¬“l
+D	php:S1808<"/Remove all space after the opening parenthesis.(£Î¤±
+	php:S1808A"eEither split this list into multiple lines, aligned at column "12" or put all arguments on line "65".(åÀ€üÿÿÿÿ
+B	php:S1808B".Move the closing parenthesis on the next line.(¹¬“l
+­php:S101"“Rename class "__TwigTemplate_76eff0e0e5ca52e535331169cf5e0dc6d7b7e5a84d3ec36b142ca2cd1ed521c6" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(à‡¹˜úÿÿÿÿ
+¸php:S117$"Rename this local variable "$__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ìÍ˜ùÿÿÿÿ
+½php:S117%"£Rename this local variable "$__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(™ñÕÖøÿÿÿÿ
+¸php:S117'"Rename this local variable "$__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(œáúÎşÿÿÿÿ
+¸php:S117("£Rename this local variable "$__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(È»Ûœ
+u	php:S1192%"[Define a constant instead of duplicating this literal "@WebProfiler/Icon/menu.svg" 4 times.(™ñÕÖøÿÿÿÿ
+F	php:S1481#",Remove this unused "$macros" local variable.(Ûûíüÿÿÿÿ

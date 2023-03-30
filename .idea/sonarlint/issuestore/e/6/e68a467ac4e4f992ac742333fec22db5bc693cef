@@ -1,0 +1,34 @@
+
+_php:S103-"KSplit this 172 characters long line (which is greater than 120 authorized).(ŒĞ½
+_php:S103C"KSplit this 170 characters long line (which is greater than 120 authorized).(úÈı›
+_php:S103Y"KSplit this 178 characters long line (which is greater than 120 authorized).(Ã¦ğ
+_php:S103o"KSplit this 170 characters long line (which is greater than 120 authorized).(´¸³Æ
+ephp:S103…"KSplit this 182 characters long line (which is greater than 120 authorized).(³†Öüÿÿÿÿ
+`php:S103›"KSplit this 170 characters long line (which is greater than 120 authorized).(ƒüÜº
+_php:S103±"KSplit this 174 characters long line (which is greater than 120 authorized).(‰“Ù
+`php:S103À"KSplit this 133 characters long line (which is greater than 120 authorized).(ëíÃÈ
+`php:S103Æ"KSplit this 128 characters long line (which is greater than 120 authorized).(Ä½ô®
+`php:S103Ì"KSplit this 148 characters long line (which is greater than 120 authorized).( ‹¯¢
+_php:S103Ò"KSplit this 128 characters long line (which is greater than 120 authorized).(äœÀZ
+ephp:S103Ø"KSplit this 158 characters long line (which is greater than 120 authorized).(ö¥˜‹ûÿÿÿÿ
+`php:S103Ş"KSplit this 128 characters long line (which is greater than 120 authorized).(ÁÑ¥à
+`php:S103ä"KSplit this 138 characters long line (which is greater than 120 authorized).(ƒ¼ÕŒ
+`php:S103é"KSplit this 156 characters long line (which is greater than 120 authorized).(…è¢Î
+`php:S103ñ"KSplit this 134 characters long line (which is greater than 120 authorized).(áÂâÂ
+`php:S103ô"KSplit this 129 characters long line (which is greater than 120 authorized).(¨±†ê
+`php:S103÷"KSplit this 149 characters long line (which is greater than 120 authorized).(±ÿ§£
+ephp:S103ú"KSplit this 129 characters long line (which is greater than 120 authorized).(¨Ü…øøÿÿÿÿ
+`php:S103ı"KSplit this 159 characters long line (which is greater than 120 authorized).(Ù¤ªË
+`php:S103€"KSplit this 129 characters long line (which is greater than 120 authorized).(Á›ñà
+ephp:S103ƒ"KSplit this 139 characters long line (which is greater than 120 authorized).(Üê¼Ïÿÿÿÿÿ
+rphp:S116"YRename this field "$_usedProperties" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ªó€Œúÿÿÿÿ
+o	php:S3776¼"TRefactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.(¹öÏúÿÿÿÿ
+j	php:S3776í"TRefactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.(Æ•âÜ
+k	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(úÒû’ùÿÿÿÿ
+k	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(®‹£Ğşÿÿÿÿ
+k	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(–ú×Êúÿÿÿÿ
+k	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(²ªˆ±ıÿÿÿÿ
+k	php:S4833	"QReplace "require_once" with namespace import mechanism through the "use" keyword.(Ôğ·Úşÿÿÿÿ
+k	php:S4833
+"QReplace "require_once" with namespace import mechanism through the "use" keyword.(î›·Ğûÿÿÿÿ
+k	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(è÷Ûƒùÿÿÿÿ
