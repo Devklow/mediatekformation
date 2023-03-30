@@ -46,7 +46,8 @@ class PlaylistRepository extends ServiceEntityRepository
      * @param type $ordre
      * @return Playlist[]
      */
-    public function findAllOrderByName($ordre): array{
+    public function findAllOrderByName($ordre): array
+    {
         return $this->createQueryBuilder('p')
             ->leftjoin('p.formations', 'f')
             ->groupBy('p.id')
@@ -59,7 +60,8 @@ class PlaylistRepository extends ServiceEntityRepository
      * @param type $ordre
      * @return Playlist[]
      */
-    public function findAllOrderByNbFormations($ordre): array{
+    public function findAllOrderByNbFormations($ordre): array
+    {
         return $this->createQueryBuilder('p')
             ->leftjoin('p.formations', 'f')
             ->groupBy('p.id')

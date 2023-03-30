@@ -110,7 +110,7 @@ class PlaylistsController extends AbstractController
         $valeur = $request->get("recherche");
         if ($valeur=="") {
             $playlists = $this->playlistRepository->findAllOrderByName('ASC');
-        } elseif($table=="") {
+        } elseif ($table=="") {
             $playlists = $this->playlistRepository->findByContainValue($champ, $valeur);
         } else {
             $playlists = $this->playlistRepository->findByCategorie($champ, $valeur);

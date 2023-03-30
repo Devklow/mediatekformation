@@ -59,7 +59,7 @@ class FormationsController extends AbstractController
      * @param type $table
      * @return Response
      */
-    public function sort(Request $request,$champ, $ordre, $table=""): Response
+    public function sort(Request $request, $champ, $ordre, $table=""): Response
     {
         if ($table==="") {
             $formations = $this->formationRepository->findAllOrderBy($champ, $ordre);

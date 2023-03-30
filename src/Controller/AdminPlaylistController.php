@@ -75,7 +75,7 @@ class AdminPlaylistController extends AbstractController
     {
         if ($this->isCsrfTokenValid('delete'.$playlist->getId(), $request->request->get('_token'))) {
             if (!$playlist->getFormations()->isEmpty()) {
-                $this->addFlash('error','Impossible de supprimer une Playlist contenant des formations');
+                $this->addFlash('error', 'Impossible de supprimer une Playlist contenant des formations');
                 return $this->redirectToRoute('admin.playlists.index', [], Response::HTTP_SEE_OTHER);
             }
             $playlistRepository->remove($playlist, true);

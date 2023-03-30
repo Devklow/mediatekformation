@@ -19,7 +19,7 @@ class FormationType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options): void
     {
         $builder
-            ->add('publishedAt',  DateType::class, [
+            ->add('publishedAt', DateType::class, [
                 "label"=>"Date de publication",
                 "attr"=>[
                     "max"=>date('Y-m-d'),

@@ -25,10 +25,9 @@ class AdminCategorieController extends AbstractController
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
-            if ($categorieRepository->findBy(['name'=>$newCategorie->getName()])){
+            if ($categorieRepository->findBy(['name'=>$newCategorie->getName()])) {
                 $this->addFlash('error', "Vous ne pouvez ajouter une catégorie de même nom qu'une existante");
-            }
-            else{
+            } else {
                 $categorieRepository->add($newCategorie, true);
                 $this->addFlash('success', 'Catégorie '.$newCategorie.' ajoutée');
             }
