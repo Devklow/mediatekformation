@@ -38,8 +38,9 @@ class AdminFormationController extends AbstractController
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
-            $formationRepository->add($formation, true);
-
+            if ($this->isValidDate($formation->getPublishedAt())) {
+                $formationRepository->add($formation, true);
+            }
             return $this->redirectToRoute('admin.formation.index', [], Response::HTTP_SEE_OTHER);
         }
 
@@ -58,8 +59,9 @@ class AdminFormationController extends AbstractController
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
-            $formationRepository->add($formation, true);
-
+            if ($this->isValidDate($formation->getPublishedAt())) {
+                $formationRepository->add($formation, true);
+            }
             return $this->redirectToRoute('admin.formation.index', [], Response::HTTP_SEE_OTHER);
         }
 
@@ -80,4 +82,10 @@ class AdminFormationController extends AbstractController
 
         return $this->redirectToRoute('admin.formation.index', [], Response::HTTP_SEE_OTHER);
     }
+
+    public function isValidDate($date): bool
+    {
+        return $date<=new \DateTime('now');
+    }
+
 }
