@@ -7,10 +7,6 @@ I
 src/Controller/.gitignore,c\5\c53475441e089241bc9fda0bb9b728a6f72f0dd2
 R
 "src/Controller/AdminController.php,9\5\95e8a41d1413bb88b6f381f62de185c923686a5c
-T
-$src/Controller/AccueilController.php,4\f\4fca059e6d922de719abe2b69812eb6743d3f1a3
-M
-templates/pages/cgu.html.twig,7\a\7a44da48ef7fe7660a414ea39892aca7efb0933a
 R
 "templates/pages/playlist.html.twig,0\5\05c32086888ed269f6156a837d5fdc168b227e5d
 R
