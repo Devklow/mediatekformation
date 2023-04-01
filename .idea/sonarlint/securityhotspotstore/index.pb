@@ -11,8 +11,6 @@ R
 "templates/pages/playlist.html.twig,0\5\05c32086888ed269f6156a837d5fdc168b227e5d
 R
 "templates/security/login.html.twig,8\9\89d5f9595fc54c90b0c2626c3e5e07e23a679864
-[
-+src/Controller/AdminFormationController.php,7\3\734d2decdd0621483f2eb4c4379fb2d8243f76da
 S
 #templates/pages/formation.html.twig,3\e\3ece7196d4cee44d63b0477ad17854fda48f3076
 G
@@ -53,8 +51,6 @@ Y
 )templates/admin_categorie/_form.html.twig,d\7\d79ed3ee9b3d226b2a26c67ab5039bd16158676a
 O
 templates/admin/index.html.twig,3\5\35bb2cf8eda5bf4c421c1e7e92c15c64b423733e
-`
-0templates/admin_categorie/_delete_form.html.twig,4\d\4dec58220cfaaf8774ac73febaa3d54747521cd4
 >
 src/Kernel.php,a\5\a5d5cc43c07908e1476c934e4d03e47d43fb4fc3
 I
@@ -91,3 +87,20 @@ M
 templates/basefront.html.twig,1\6\16892ecdad9ae146b233e332c32c2d13e470a102
 W
 'src/Security/KeycloackAuthenticator.php,5\e\5e0ad3f38072ec77ef5ec03cc0ca617bb1caf636
+W
+'templates/admin_playlist/edit.html.twig,e\1\e17ef5ebcfe1c697921694166fa13913308489e2
+Q
+!src/Repository/UserRepository.php,9\4\943a623b5e2fd95ea78f6287fc600a6f8e0a5235
+Y
+)templates/admin_formation/index.html.twig,d\4\d4365e127a1f824cd1ab0237090aa3135fbe67c1
+Q
+!templates/pages/accueil.html.twig,5\9\59ef6262b1c2fed688d7e4d86b2e1b006ebf6a09
+C
+src/Entity/User.php,0\a\0a3e99b9da178509aeb5b3fa6f5dce46bc0eb8be
+Y
+)templates/admin_categorie/index.html.twig,b\7\b742e72c6dd52983150b3ae8539632395f3a3f0b
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+M
+templates/pages/cgu.html.twig,7\a\7a44da48ef7fe7660a414ea39892aca7efb0933a
