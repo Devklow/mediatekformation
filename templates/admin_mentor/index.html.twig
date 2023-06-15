@@ -1,0 +1,47 @@
+{% extends 'baseback.html.twig' %}
+
+{% block title %}Administration des Categories{% endblock %}
+
+{% block body %}
+    <h1>Administration des Categories</h1>
+
+    {{ include('admin_categorie/_form.html.twig') }}
+    <table class="table" aria-describedby="table des catégories">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nom</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for categorie in categories %}
+            <tr>
+                <td>{{ categorie.id }}</td>
+                <td>{{ categorie.name }}</td>
+                <td>
+                    <div class="d-flex justify-content-left">
+                        <a class="btn btn-warning mx-1"
+                           href="{{ path('admin.categories.edit', {'id': categorie.id}) }}">Modifier</a>
+                        {% if categorie.formations is empty %}
+                            {{ include('admin_categorie/_delete_form.html.twig') }}
+                        {% else %}
+                            <div class="">
+                                <button class="btn btn-secondary mx-1" data-bs-toggle="tooltip" data-bs-placement="top"
+                                        data-bs-html="true"
+                                        title="Impossible de supprimer une catégorie liée à une formation">
+                                    Supprimer
+                                </button>
+                            </div>
+                        {% endif %}
+                    </div>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="3">Aucune catégorie trouvée</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
